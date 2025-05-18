@@ -65,4 +65,4 @@ def count(n, max):
     return count(n - max, max)+count(n, max - 1)
 def tower(n):
     return count(n,n)
-print(tower(5))
+print(tower(10))
